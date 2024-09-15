@@ -1,0 +1,26 @@
+footer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: auto;
+}
+footer i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+@media screen and (max-width: 375px){
+    footer{
+        padding: 8px;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .para{
+        font-size: 12px;
+        margin-right: 2px;
+    }
+    footer i{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+}
